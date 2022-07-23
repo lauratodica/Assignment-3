@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
     <title>Assignment 3</title>
 </head>
 <body>
-    <h1>!</h1>
+    <div class="navbar">
+        <img class="nav-img" src="navbar.png" alt="rock, paper, scissors">
+    </div>
+    <div class="container">
+        <div class="title">
+            <h1>BATTLE TIME! LET'S DO THIS!</h1>
+        </div>
+    
+        <div class="images-div">
+            <img src="rock.jpg" class="img rock">
+            <img src="paper.jpg" class="img paper">
+            <img src="scissors.jpg" class="img scissors">
+        </div>
+
+        <div class="table-score">
+            <h1 class="score-title">SCORE</h1>
+            <div class="score">
+                <div class="player-score">
+                    <h2 class="player">PLAYER</h2>
+                    <h3 class="score-p"> </h3>
+                </div>
+                <div class="computer-score">
+                    <h2 class="computer">COMPUTER</h2>
+                    <h3 class="score-c"> </h3>
+                </div>
+                
+            </div>
+            <div class="winner-div">
+                <h1 class="winner">WINNER: </h1>
+                <h1 class="winner-name"> </h1>
+            </div>
+            
+            <div class="restart">
+                <button type="button" class="start-again">Start again</button>
+            </div>
+        </div>
+
+    </div>
 <script src="script.js"></script>
 </body>
